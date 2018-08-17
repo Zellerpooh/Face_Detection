@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="zeller.com.facedetection.MainActivity">
+
+    <ImageView
+        android:id="@+id/iv_face"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+    <Button
+        android:onClick="facedetection"
+        android:text="人脸检测"
+        android:id="@+id/btn_face_detection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="OnClick" />
+
+</LinearLayout>
