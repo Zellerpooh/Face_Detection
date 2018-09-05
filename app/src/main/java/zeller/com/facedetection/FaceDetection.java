@@ -8,15 +8,6 @@ import android.graphics.Bitmap;
 
 public class FaceDetection {
 
-    static {
-        System.loadLibrary("native-lib");
-    }
-
-    /**
-     *
-     * @param mFaceBitmap
-     */
-    public native void faceDetectionSaveInfo(Bitmap mFaceBitmap);
 
 
 
